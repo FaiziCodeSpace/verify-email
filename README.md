@@ -83,6 +83,6 @@ Gmail requires an App Password (not your regular email password).
 
 3. Enter the code to verify.
 
-4.Verified emails are saved to verified.json.
+4. Verified emails are saved to verified.json.
 
 Built for learning and practice purposes by Faizan
