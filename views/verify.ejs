@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Code</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form method="POST" action="/verify-code">
+        <input type="hidden" name="email" value="<%= email %>">
+        <input type="text" name="code" placeholder="Enter Verification Code" required>
+        <button type="submit">Verify</button>
+    </form>
+
+    <% if (Success) { %>
+        <h1 style="color: green;"><%= Success %></h1>
+    <% } %>
+</body>
+</html>
