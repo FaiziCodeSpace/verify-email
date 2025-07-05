@@ -27,7 +27,7 @@
 ---
 
 ## 📁 Project Structure
-
+```
 project-root/
 │
 ├── data/
@@ -45,7 +45,7 @@ project-root/
 ├── app.js # Main application logic
 ├── package.json
 └── README.md
-
+```
 
 ---
 
